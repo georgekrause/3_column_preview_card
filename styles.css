@@ -13,6 +13,7 @@
 
 .main {
     font-family: Lexend-Deca;
+    font-weight: 400;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -29,7 +30,7 @@ p {
 }
 
 .sedans {
-    
+    font-family: Lexend-Deca;
     background-color: hsl(31, 77%, 52%);
     padding: 40px;
     max-width: 200px;
