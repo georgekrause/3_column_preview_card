@@ -6,25 +6,53 @@
     color: hsl(228, 45%, 44%); 
 }
 
+@font-face {
+    font-family: Lexend Deca;
+    src: url(https://fonts.google.com/specimen/Lexend+Deca);
+}
+
 .main {
+    font-family: Lexend-Deca;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
     min-width: 375px;
     max-width: 1440;
     background-color: white;
     margin: 20px 20px 0 20px;
-    
+    color: white;
+}
+
+p {
+    padding-bottom: 75px;
 }
 
 .sedans {
+    
     background-color: hsl(31, 77%, 52%);
     padding: 40px;
+    max-width: 200px;
+    height: 350px;
 }
 
 .suv {
     background-color: hsl(184, 100%, 22%);
     padding: 40px;
+    max-width: 200px;
+    height: 350px;
 }
 
-.luxury {
+.luxury { 
     background-color: hsl(179, 100%, 13%);
     padding: 40px;
+    max-width: 200px;
+    height: 350px;
+}
+
+.button {
+    width: 130px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
 }
